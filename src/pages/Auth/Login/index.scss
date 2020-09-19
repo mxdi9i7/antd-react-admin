@@ -1,0 +1,36 @@
+.login__page {
+	display: flex;
+	margin: auto;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+}
+
+.login__container {
+	width: 368px;
+	background-color: rgba(255, 255, 255, 1);
+	padding: 20px;
+	padding-bottom: 0;
+	position: relative;
+	z-index: 999;
+}
+
+.logo__container {
+	text-align: center;
+}
+
+.logo__container img {
+	width: 70%;
+	height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+	.box-gallery{
+		display: none;
+	}
+	.login__page {
+		padding-bottom: 30%;
+	}
+}

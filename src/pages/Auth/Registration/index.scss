@@ -1,0 +1,40 @@
+.register-page {
+  background-color: #fff;
+  z-index: 999;
+  width: 600px;
+  margin: auto;
+  p{
+    margin: 0;
+    font-size: 28px;
+    padding: 18px 0;
+    text-align: center;
+  }
+  .logo {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    img {
+      width: 200px;
+      height: auto;
+    }
+  }
+  .register-span{
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .register-page {
+    width: 280px;
+    p{
+      font-size: 24px;
+    }
+    .logo {
+      padding-top: 50px;
+      img {
+        width: 200px;
+      }
+    }
+  
+  }
+}
